@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  display: block;
+}
+
+.nav-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 50%;
+  box-shadow: -3px 3px rgba(0, 0, 0, 0.527);
+  transition: 0.5s;
+  background-color: #eeeeee;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.menuLink {
+  display: block;
+  text-decoration: none;
+  padding-left: 30%;
+
+}
+
+.nav-menu .closeBtn {
+  padding-left: 93%;
+  text-decoration: none;
+  font-size: 1.12rem;
+}
